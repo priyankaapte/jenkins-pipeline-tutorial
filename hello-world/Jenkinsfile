@@ -15,13 +15,11 @@ pipeline {
         stage('Security Check') {
             steps {
                 echo 'Run the security check against the application' 
-                echo 'I am Priyanka Apte'
             }
         }
         stage('Run Unit Tests') {
             steps {
                 echo 'Run unit tests from the source code' 
-                echo 'I am Priyanka Apte'
             }
         }
         stage('Run Integration Tests') {
